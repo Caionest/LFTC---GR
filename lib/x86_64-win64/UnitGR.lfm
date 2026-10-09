@@ -1,0 +1,78 @@
+object FormGR: TFormGR
+  Left = 320
+  Height = 468
+  Top = 190
+  Width = 636
+  Caption = 'Simulador GR'
+  ClientHeight = 468
+  ClientWidth = 636
+  Color = clBtnFace
+  Font.Name = 'Segoe UI'
+  Font.Height = -13
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  object LblGrammar: TLabel
+    Left = 177
+    Height = 20
+    Top = 82
+    Width = 190
+    Caption = 'Gramática Regular'
+  end
+  object MemoGrammar: TMemo
+    Left = 177
+    Height = 58
+    Top = 108
+    Width = 272
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object LblWord: TLabel
+    Left = 177
+    Height = 20
+    Top = 188
+    Width = 90
+    Caption = 'Entrada'
+  end
+  object EdWord: TEdit
+    Left = 177
+    Height = 24
+    Top = 214
+    Width = 272
+    TabOrder = 1
+  end
+  object BtnTest: TButton
+    Left = 245
+    Height = 25
+    Top = 262
+    Width = 129
+    Caption = 'Testar'
+    OnClick = BtnTestClick
+    TabOrder = 2
+  end
+  object LblOutputTitle: TLabel
+    Left = 177
+    Height = 20
+    Top = 317
+    Width = 65
+    Caption = 'Saída:'
+  end
+  object LblResult: TLabel
+    Left = 177
+    Height = 20
+    Top = 348
+    Width = 260
+    Caption = 'Aguardando teste...'
+  end
+  object MemoTrace: TMemo
+    Left = 177
+    Height = 75
+    Top = 373
+    Width = 272
+    BorderStyle = bsNone
+    Color = clBtnFace
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 3
+    TabStop = False
+  end
+end

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="True"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <Title Value="Simulador de Gramáticas Regulares"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+    </General>
+    <BuildModes><Item Name="Default" Default="True"/></BuildModes>
+    <RequiredPackages><Item><PackageName Value="LCL"/></Item></RequiredPackages>
+    <Units>
+      <Unit><Filename Value="SimuladorGR.lpr"/><IsPartOfProject Value="True"/></Unit>
+      <Unit><Filename Value="UnitGR.pas"/><IsPartOfProject Value="True"/><ComponentName Value="FormGR"/><HasResources Value="True"/><ResourceBaseClass Value="Form"/><UnitName Value="UnitGR"/></Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target><Filename Value="SimuladorGR"/></Target>
+    <SearchPaths><UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/></SearchPaths>
+    <Linking><Debugging><DebugInfoType Value="dsDwarf3"/></Debugging></Linking>
+  </CompilerOptions>
+</CONFIG>
